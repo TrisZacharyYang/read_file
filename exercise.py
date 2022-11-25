@@ -1,7 +1,5 @@
-open('active_members.txt','w').write('')
-open('inactive_members.txt','w').write('')
-open('active_members.txt','a').write('Membership No     Date Joined\n')
-open('inactive_members.txt','a').write('Membership No     Date Joined\n')
+open('active_members.txt','w').write('Membership No     Date Joined\n')
+open('inactive_members.txt','w').write('Membership No     Date Joined\n')
 to_be_written = 'dump.txt'
 
 with open('members.txt','r') as li:
